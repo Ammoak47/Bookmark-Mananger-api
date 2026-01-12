@@ -25,7 +25,13 @@ SECRET_KEY = 'django-insecure--45&#o7c0%rnk&#o&_9%(saepu^8i&kq35oz!4x860%=^a=d42
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'bookmark-mananger-api.onrender.com',
+    '.onrender.com',
+    'localhost',
+    '127.0.0.1',
+]
+
 
 
 # Application definition
@@ -157,8 +163,4 @@ import os
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-ALLOWED_HOSTS = [
-    'bookmark-manager-api.onrender.com',
-    'localhost',
-    '127.0.0.1'
-]
+
