@@ -1,0 +1,10 @@
+Django>=5.2
+djangorestframework
+dj-rest-auth
+django-allauth
+django-cors-headers
+gunicorn
+whitenoise
+requests
+cryptography
+PyJWT
